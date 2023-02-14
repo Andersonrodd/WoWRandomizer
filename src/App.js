@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import './App.css';
 const raceClassMap = {
   Human: [
     "Warrior",
@@ -141,30 +141,30 @@ function App() {
   }
 
   return (
-    <div className="container-fluid text-center vh-100">
-      <div className="row justify-content-center">
-        <div className="col-md-5 col-8">
-          <div className="card mt-5">
-            <header className="card-header">
-              <h1 className="h1 text-center text-primary">
-                World of Warcraft Randomizer
-              </h1>
-            </header>
-
-            <button
-              className="btn btn-primary text-white"
-              onClick={handleClick}
-            >
-              Randomize!
-            </button>
-            <div className="card-body text-primary">
-              {race && <p>Race: {race}</p>}
-              {classSpec && <p>Class/Spec: {classSpec}</p>}
-            </div>
+    <div className="container-fluid d-flex align-items-center justify-content-center vh-100">
+    <div className="row justify-content-center">
+      <div className="col-md-8 col-10">
+        <div className="card">
+          <header className="card-header">
+            <h1 className="h1 text-center text-primary">
+              World of Warcraft Randomizer
+            </h1>
+          </header>
+  
+          <button
+            className="btn btn-primary text-white w-100"
+            onClick={handleClick}
+          >
+            Randomize!
+          </button>
+          <div className="card-body text-primary text-center">
+            {race && <p>Race: {race}</p>}
+            {classSpec && <p>Class/Spec: {classSpec}</p>}
           </div>
         </div>
       </div>
     </div>
+  </div>
   );
 }
 
