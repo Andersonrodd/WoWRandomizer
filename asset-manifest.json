@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d69756cb.css",
+    "main.js": "/static/js/main.af8d8075.js",
+    "static/js/787.d5682a39.chunk.js": "/static/js/787.d5682a39.chunk.js",
+    "static/media/WoW2.png": "/static/media/WoW2.173d77f5fdb0d7853baf.png",
+    "index.html": "/index.html",
+    "main.d69756cb.css.map": "/static/css/main.d69756cb.css.map",
+    "main.af8d8075.js.map": "/static/js/main.af8d8075.js.map",
+    "787.d5682a39.chunk.js.map": "/static/js/787.d5682a39.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d69756cb.css",
+    "static/js/main.af8d8075.js"
+  ]
+}
